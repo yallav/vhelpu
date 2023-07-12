@@ -1,0 +1,38 @@
+.professional-summary-container {
+  margin: 0px auto;
+  padding: 25px;
+  color: #353333e0;
+  text-align: center;
+}
+
+.professional-summary {
+  height: 80%;
+  width: 60%;
+  background-color: rgb(243, 237, 237, 0.3);
+  padding: 25px;
+  margin: 0px auto;
+}
+
+.professional-summary .col-lg-5 {
+  width: 46%;
+}
+
+.professional-summary .h2textalign {
+    text-align: left !important;
+}
+
+.professional-summary img {
+  height: auto;
+  width: 100%;
+}
+
+.professional-summary h2 {
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.professional-summary p {
+    text-align: justify !important;
+    line-height: 22px;
+}

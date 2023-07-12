@@ -1,0 +1,9 @@
+.cntctdialogiconcontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contctdialogspace {
+    margin-right: 10px;
+}

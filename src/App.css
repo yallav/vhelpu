@@ -1,38 +1,132 @@
 .App {
+  height: auto;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 0px 1px #e6e0e0;
+  background-color: #f3eded;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-pic-container {
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(243, 237, 237, 0.3);
+  background-image: url("./assets/images/profilebackground.jpeg");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hdr-cls {
+  padding: 10px 0px; 
+  width: 100%;
+  text-align: left;
+  background-color: rgb(243, 237, 237, 0.3);
+}
+
+.sideiconcls {
+  opacity: 0;
+}
+
+.new-sideiconcls {
+  opacity: 1;
+  bottom: 75px;
+  right: 30px;
+  display: block;
+  float: right;
+  position: fixed;
+  transition: background-color 0.5s, box-shadow 1s, opacity 1s, color 0.5s linear;
+  box-shadow: 0px 0px 2px 1px #353333e0;
+  background-color: rgb(199, 196, 196);
+  z-index: 10;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.new-sideiconcls .upicon {
+  font-size: 3rem;;
+}
+
+.new-sideiconcls:hover {
+  background-color: #353333e0;
+  color: #ffffff;
+}
+
+.profile-container {
+  height: auto;
+}
+
+.profile {
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.9);
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1100px) {
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 75%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+}
+
+.captioncontainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

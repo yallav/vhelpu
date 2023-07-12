@@ -1,0 +1,68 @@
+.technical-summary-container {
+  margin: 0px auto;
+  padding: 25px;
+  text-align: left;
+  color: #353333e0;
+}
+
+.technical-summary {
+  height: 80%;
+  width: 60%;
+  background-color: rgb(243, 237, 237, 0.3);
+  padding: 25px;
+  margin: 0px auto;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.technical-summary h2 {
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+
+.technical-summary .container {
+  margin: 5px 0px;
+  margin: 15px 10px;
+  transition: all 0.5s linear;
+  padding: 5px 0px;;
+}
+
+.container .bottom {
+  width: 100%;
+  background-color: #f3eded4d;
+  border-radius: 7px;
+  box-shadow: 0px 0px 1px 1px #5353534d;
+}
+
+.technical-summary img {
+  height: auto;
+  width: 100%;
+}
+
+.bottom .rating {
+  padding: 3px 0px;
+  background-color: #b92222e0;
+  border-radius: 7px;
+}
+
+.html, .css, .springboot {
+  width: 80%;
+}
+
+.javascript {
+  width: 85%;
+}
+
+.angular, .react, .testing {
+  width: 90%;
+}
+
+.MuiButton-label {
+  color: #353333e0;
+}

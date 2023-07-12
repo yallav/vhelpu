@@ -1,0 +1,161 @@
+.contact-details-container {
+    margin: 0px auto;
+    padding: 25px;
+    text-align: left;
+    color: #353333e0;
+}
+
+.contact-details {
+    position: relative;
+    height: 80%;
+    width: 60%;
+    background-color: rgb(243, 237, 237, 0.3);
+    padding: 25px;
+    margin: 0px auto;
+}
+
+.contact-details .dummyinputcls{
+    margin-top: 10px;
+    position: relative;
+}
+
+.contact-details h2 {
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-details img {
+    height: auto;
+    width: 100%;
+}
+
+.emaillabelcls {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #353333e0 !important;
+}
+
+.dummycls {
+    position: relative;
+}
+
+.desclabelcls {
+    left: 25px;
+    position: absolute;
+    top: 15px;
+    font-weight: 300;
+    color: #353333e0 !important;
+}
+
+label, input, textarea {
+    transition: all 0.2s;
+    touch-action: manipulation;
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+input, textarea {
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 0;
+    cursor: text;
+}
+
+input:focus, textarea:focus {
+    outline: 0;
+    border-bottom: 1px solid #666;
+}
+
+.contact-details input, .contact-details textarea {
+    width: 100%;
+    padding: 10px;
+    color: #353333e0;
+}
+
+.contact-details textarea { 
+    resize: none; 
+}
+
+.errormsg { 
+    display: block;
+    padding: 2px 10px;
+    color: #d60404;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.btncls {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.3) !important;
+    padding: 7px 10px;
+    border-radius: 2px;
+    font-size: 1.2em;
+    transition: box-shadow 0.5s linear;
+    color: #353333e0;
+    text-transform: none;
+}
+
+.btncls:hover {
+    box-shadow: 0px 0px 2px 1px #353333e0;;
+}
+
+input:placeholder-shown + label,
+textarea:placeholder-shown + label {
+    cursor: text;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    color: #353333e0;
+}
+
+input::placeholder, 
+textarea::placeholder {
+    opacity: 0;
+    transition: inherit;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    opacity: 1;
+}
+
+input:not(:placeholder-shown) + label,
+input:focus + label {
+    cursor: pointer;
+    top: -10px;
+    left: 25px;
+    font-size: 15px !important;
+    font-weight: 300;
+    color: #353333e0 !important;
+}
+
+textarea:not(:placeholder-shown) + label,
+textarea:focus + label   {
+    transform: scale(1);
+    cursor: pointer;
+    top: -4px;
+}
+
+.contact-details .alertmsgcls {
+    margin: 0px auto;
+    background-color: #2f95f5;
+    padding: 20px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.contact-details .infoiconcls {
+    margin-right: 5px;;
+}

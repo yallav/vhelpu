@@ -1,0 +1,29 @@
+.aboutme-details-container {
+    margin: 0px auto;
+    padding: 25px;
+}
+
+.aboutme-details-container .aside {
+    text-align: justify;
+    line-height: 21px;
+    color: #353333e0;
+}
+
+.aboutme-details {
+    height: 80%;
+    width: 60%;
+    background-color: rgb(243, 237, 237, 0.3);
+    padding: 25px;
+    margin: 0px auto;
+}
+
+.aboutme-details img {
+    height: auto;
+    width: 100%;
+}
+
+.aboutme-details .h2cls {
+    font-weight: 400 !important;
+    text-align: left !important;
+    color: #353333e0 !important;
+}
