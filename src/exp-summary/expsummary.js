@@ -67,7 +67,7 @@ class ExpSummary extends React.Component{
                             <label> GAP Inc.</label>
                             </div>
                             <div className="col-lg-3 col-3 col-sm-3 experience-details-display">
-                            <label> Manager</label>
+                            <label> Technical Lead</label>
                             </div>
                             <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
                             <label> Jun 2019 - Dec 2021</label>
