@@ -22,15 +22,17 @@ class ProfSummary extends React.Component {
               <div className="row">
                 <div className="col-lg-11 col-11 col-sm-11">
                   <p>
-                  Well, I have all of the skills and experience that you’re looking for and 
-                  I'm confident that I would be great fit in your organisation because I possess track 
-                  record of successful projects, experience with different work culture based teams 
-                  and my people skills which helped me to build healthy work environment and good 
-                  relationships with project stakeholders.
+                  I have a thorough understanding of SDLC and various technical concepts such as cloud computing, 
+                  server administration, deployment processes, web development and testing. This knowledge will help you when using 
+                  cloud services and platform. 
                   </p>
                   <p>
-                  I am happy to share my experiences with you here. 
+                  I'm confident that I would be great fit in your organisation as I possess track 
+                  record of successful projects, experience with different work culture based teams 
+                  and my people skills which can be useful in building healthy work environment and good 
+                  relationships with project stakeholders. 
                   </p>
+            
                 </div>
               </div>
               <div className="row">

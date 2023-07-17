@@ -46,6 +46,21 @@ class ExpSummary extends React.Component{
                     (<>
                         <div className="row contentcls">
                             <div className="col-lg-1 col-1 col-sm-3 experience-details-display">
+                            <img src={images.reddis} alt=""/>
+                            </div>
+                            <div className="col-lg-2 col-2 col-sm-2 experience-details-display">
+                            <label> ReddisIT Ltd. </label>
+                            </div>
+                            <div className="col-lg-3 col-3 col-sm-3 experience-details-display">
+                            <label> Technical Consultant</label>
+                            </div>
+                            <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
+                            <label> Feb 2022 - Present</label>
+                            </div>
+                        </div>
+
+                        <div className="row contentcls">
+                            <div className="col-lg-1 col-1 col-sm-3 experience-details-display">
                             <img src={images.gap} alt=""/>
                             </div>
                             <div className="col-lg-2 col-2 col-sm-2 experience-details-display">
@@ -55,7 +70,7 @@ class ExpSummary extends React.Component{
                             <label> Manager</label>
                             </div>
                             <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
-                            <label> Jun 2019 - Current</label>
+                            <label> Jun 2019 - Dec 2021</label>
                             </div>
                         </div>
                         <div className="row contentcls">
@@ -70,48 +85,6 @@ class ExpSummary extends React.Component{
                             </div>
                             <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
                             <label> Mar 2012 - May 2019</label>
-                            </div>
-                        </div>
-                        <div className="row contentcls">
-                            <div className="col-lg-1 col-1 col-sm-3 experience-details-display">
-                            <img src={images.applabs} alt=""/>
-                            </div>
-                            <div className="col-lg-2 col-2 col-sm-2 experience-details-display">
-                            <label> AppLabs </label>
-                            </div>
-                            <div className="col-lg-3 col-3 col-sm-3 experience-details-display">
-                            <label> Team Lead</label>
-                            </div>
-                            <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
-                            <label> Nov 2009 - Mar 2012</label>
-                            </div>
-                        </div>
-                        <div className="row contentcls">
-                            <div className="col-lg-1 col-1 col-sm-3 experience-details-display">
-                            <img src={images.csc} alt=""/>
-                            </div>
-                            <div className="col-lg-2 col-2 col-sm-2 experience-details-display">
-                            <label> CSC </label>
-                            </div>
-                            <div className="col-lg-3 col-3 col-sm-3 experience-details-display">
-                            <label>  Test Engineer </label>
-                            </div>
-                            <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
-                            <label> Sep 2007 - Oct 2009</label>
-                            </div>
-                        </div>
-                        <div className="row contentcls">
-                            <div className="col-lg-1 col-1 col-sm-3 experience-details-display">
-                            <img src={images.rtg} alt=""/>
-                            </div>
-                            <div className="col-lg-2 col-2 col-sm-2 experience-details-display">
-                            <label> Ready Test Go </label>
-                            </div>
-                            <div className="col-lg-3 col-3 col-sm-3 experience-details-display">
-                            <label> Performance Test Analyst </label>
-                            </div>
-                            <div className="col-lg-6 col-6 col-sm-3 experience-details-display">
-                            <label> Aug 2005 - Sep 2007</label>
                             </div>
                         </div>
                     </>)

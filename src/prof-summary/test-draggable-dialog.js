@@ -43,16 +43,26 @@ export default function DraggableDialog() {
             Experience summary as technical test lead
         </DialogTitle>
         <DialogContent>
+          <DialogContentText>
+          Resolved support requests with a thorough understanding of workflows and escalate unresolved issues to the concerned teams. 
+          Collaborate with technical teams to have proper documentation of tools to help engineers to unblock themselves
+          </DialogContentText>
           <DialogContentText> 
             Customer facing, taking care of customer communications, managing the team, planning project activities 
-            and mentoring junior resources in technologies as per project needs 
+            and mentoring junior resources in technologies as per project needs. Analysing the Cucumber scenarios, 
+            creating story points in JIRA as per the complexity of stories and delegating the work to team members
           </DialogContentText>
           <DialogContentText> 
-            Analysing the Cucumber scenarios, creating story points in JIRA as per 
-            the complexity of stories and delegating the work to team members
+          Written the functional test plans and test strategies as per gathered requirements, automating the UI tests and 
+          integration tests, identifying the scope of load testing and guiding the test teams 
           </DialogContentText>
           <DialogContentText>
-            Writing the integration tests, identifying the scope of load testing and guiding the test teams 
+            Tested application functionalities through UI, Rest APIs, and querying tables to check consistency across the Web layer, Application layer, and DB layer; 
+            share the complete details along with steps to follow to reproduce the scenario in case of any functional issues
+          </DialogContentText>
+          <DialogContentText>
+          Developed the automation tests by using the Java, Selenium automation tool, page object model pattern, and Cucumber BDD framework and 
+          maintain automation scripts in the GitHub repo, help the product teams to increase testing efficiency with automation tests, and maintain the automation test scripts
           </DialogContentText>
           <DialogContentText>
           Prepared the test plan by referring the NFR requirements, legacy systems and development of the
@@ -70,17 +80,15 @@ recommendations along with metrics
           </DialogContentText>
           <DialogContentText>
           Collaboratively worked with load balancer teams and gateway server teams to resolve performance
-bottlenecks
+bottlenecks. Worked on performance test report along with test observations and test recommendations and discussed test
+observations with project stakeholders
           </DialogContentText>
-          <DialogContentText>
-          Worked on performance test report along with test observations and test recommendations and discussed test
-observations with project stakeholders</DialogContentText>
           <DialogContentText>
           Developed functionality in Groovy to encrypt & decrypt files with BouncyCastle API, to FTPing the files with
 JCraft API and file transfers from Amazon S3 bucket
           </DialogContentText>
           <DialogContentText>
-            Developed web page rendering timer tool with the help of Selenium automation scripts and HAR (HTTP Archive) files
+        Developed web page rendering timer tool with the help of Selenium automation scripts and HAR (HTTP Archive) files
           </DialogContentText>
         </DialogContent>
         <DialogActions>

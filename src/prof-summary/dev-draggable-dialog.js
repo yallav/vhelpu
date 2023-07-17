@@ -40,11 +40,19 @@ export default function DraggableDialog() {
         aria-labelledby="draggable-dialog-title"
       >
         <DialogTitle style={{ cursor: 'move' }} id="draggable-dialog-title">
-            Experience summary as developer
+            Experience summary as DevOps engineer
         </DialogTitle>
         <DialogContent>
           <DialogContentText> Taking care of customer communications, managing the team, planning project activities 
             and mentoring junior resources in technologies as per project needs 
+          </DialogContentText>
+          <DialogContentText>
+            Writing pipeline configuration files to support deployments in AWS and DigitalOcean clouds 
+            through Jenkins CI/CD tool and GitHub actions 
+          </DialogContentText>
+          <DialogContentText>
+          Configuring CI/CD pipelines to provision infrastructure, build & deploy code and execute automation tests after deployment;
+          Managing the DNS server entries from HostGator, Google Domains and GoDaddy to have seamless deployments.
           </DialogContentText>
           <DialogContentText> 
             Working on multiple projects with a team of 7 members that comprises of backend engineers and 
@@ -69,20 +77,28 @@ export default function DraggableDialog() {
             and partially involved in back end development suing SpringBoot
           </DialogContentText>
           <DialogContentText>
-            Developed SurveyBuilder project as a proof of concept project using MEAN (MongoDB, ExpressJS, Angular and NodeJS) stack 
+            Developed SurveyBuilder project using MEAN (MongoDB, ExpressJS, Angular and NodeJS) stack 
+            and test harness systems to reset test environment and feed mock data into test database
           </DialogContentText>
           <DialogContentText>
-            Worked on UNIT testing for web screens which are developed in Angular web framework
+            Worked on UNIT testing for web screens which are developed in Angular web framework. Enhanced Automation Test Repository 
+            web application with file browse functionality in JSF
           </DialogContentText>
           <DialogContentText>
-            Enhanced Automation Test Repository web application with file browse functionality in JSF 
+          Cooperated with the team members to resolve interpersonal conflicts and focused on the needs of team members 
+          to make sure delivery as per the organization’s values, principles, and business objectives
           </DialogContentText>
           <DialogContentText>
-          Developed test harness systems to reset test environment and feed mock data into test database
+          Assisted the product owner and team to groom the stories from the backlog, creating new stories per the project’s current needs, 
+          estimating the efforts for each story, reviewing the stories, and planning the team’s velocity
           </DialogContentText>
           <DialogContentText>
-          Designed and developed the Test Automation Framework and setup as JENKINS job to perform automated
-regression testing 
+          Collaborated with team to deliver committed sprint goals, created daily stand-ups to inspect daily progress and unblock the team, 
+          and facilitated sprint retrospectives to discuss the areas of improvement, identify technological gaps in the team and plan required training plans
+          </DialogContentText>
+          <DialogContentText>
+          Mentored the junior engineers in development practices, conducted the knowledge sharing sessions, coached the team 
+          in Agile practices to ensure Agile practices in the projects, participated in design discussions and code reviews
           </DialogContentText>
         </DialogContent>
         <DialogActions>

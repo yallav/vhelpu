@@ -43,7 +43,7 @@ import './contact-dialog.css';
               <AlternateEmailIcon className="contctdialogspace"/> kyallavi@gmail.com
             </DialogContentText>
             <DialogContentText id="alert-dialog-slide-description" className="cntctdialogiconcontainer">
-              <PhoneIcon className="contctdialogspace"/> (+91) 800-841-8537
+              <PhoneIcon className="contctdialogspace"/> (+44) (0)758-734-6165
             </DialogContentText>
           </DialogContent>
           <DialogActions>

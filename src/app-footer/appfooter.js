@@ -55,16 +55,15 @@ class AppFooter extends React.Component{
                             <h4 className="contactsubitemcontainer"> <ContactsIcon /> Contact</h4>
                             <p className="contactsubitemcontainer"> <HomeIcon /> Address</p>
                             <div className="addresscontainer">
-                                <p className="contacts"> HIG-263, Flat No: 202, </p>
-                                <p className="contacts"> Maathru Sri Nilayam, KPHB-6Th Phase</p>
-                                <p className="contacts"> Hyderabad, Telangana</p>
-                                <p className="contacts"> India - 500072</p>
+                                <p className="contacts"> 20, Spinney Close </p>
+                                <p className="contacts"> North Field</p>
+                                <p className="contacts"> Birmingham B31 2JG</p>
                             </div>
                             <div onMouseEnter={this.setIsShown}>
-                                <p className="contactsubitemcontainer contactcls"> <EmailIcon /> vijayakumar_yalla@yahoo.com </p>
+                                <p className="contactsubitemcontainer contactcls"> <EmailIcon /> Email </p>
                             </div>
-                            <p className="contactsubitemcontainer"> <AlternateEmailIcon /> kyallavi@gmail.com</p>
-                            <p className="contactsubitemcontainer"> <PhoneIcon /> (+91) 800-841-8537</p>
+                            <p className="contactsubitemcontainer"> <AlternateEmailIcon /> vijayakumar_yalla@yahoo.com (or) kyallavi@gmail.com</p>
+                            <p className="contactsubitemcontainer"> <PhoneIcon /> (+44) (0)758-734-6165</p>
                         </div>
                     </div>
                 </div>

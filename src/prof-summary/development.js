@@ -60,7 +60,7 @@ function Development(props) {
         <CardHeader 
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              Development
+              DevOps
             </Avatar>
           }
         />
